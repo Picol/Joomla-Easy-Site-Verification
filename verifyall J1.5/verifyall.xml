@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - Verifyall</name>
+	<author>IamBoredSoIblog</author>
+	<creationDate>November 2009</creationDate>
+	<copyright>(C) 2009-2009 Theo van der Sluijs/Iamboredsoiblog. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@iamboredsoiblog.eu</authorEmail>
+	<authorUrl>http://www.iamboredsoiblog.eu/</authorUrl>
+	<version>1.5</version>
+	<description>Small Plugin to make Google/Yahoo and Bing site verification a bit easier.</description>
+	<files>
+		<filename plugin="verifyall">verifyall.php</filename>
+	</files>
+	<params>
+		<param name="googlekey" type="text" default="" size="25" label="Google Key" description="Copy/Paste the Google Key string without the quotes here." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="yahookey" type="text" default="" size="25" label="Yahoo Key" description="Copy/Paste the Yahoo Key string without the quotes here." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="bingkey" type="text" default="" size="25" label="Bing Key" description="Copy/Paste the Bing Key string without the quotes here." />
+	</params>
+</install>
